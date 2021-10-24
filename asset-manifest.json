@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SlotBook/static/css/main.604c3c62.chunk.css",
+    "main.js": "/SlotBook/static/js/main.29020905.chunk.js",
+    "main.js.map": "/SlotBook/static/js/main.29020905.chunk.js.map",
+    "runtime-main.js": "/SlotBook/static/js/runtime-main.05c9ebd6.js",
+    "runtime-main.js.map": "/SlotBook/static/js/runtime-main.05c9ebd6.js.map",
+    "static/js/2.c7f1166f.chunk.js": "/SlotBook/static/js/2.c7f1166f.chunk.js",
+    "static/js/2.c7f1166f.chunk.js.map": "/SlotBook/static/js/2.c7f1166f.chunk.js.map",
+    "static/js/3.a751e780.chunk.js": "/SlotBook/static/js/3.a751e780.chunk.js",
+    "static/js/3.a751e780.chunk.js.map": "/SlotBook/static/js/3.a751e780.chunk.js.map",
+    "index.html": "/SlotBook/index.html",
+    "static/css/main.604c3c62.chunk.css.map": "/SlotBook/static/css/main.604c3c62.chunk.css.map",
+    "static/js/2.c7f1166f.chunk.js.LICENSE.txt": "/SlotBook/static/js/2.c7f1166f.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/SlotBook/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05c9ebd6.js",
+    "static/js/2.c7f1166f.chunk.js",
+    "static/css/main.604c3c62.chunk.css",
+    "static/js/main.29020905.chunk.js"
+  ]
+}
