@@ -1,4 +1,5 @@
 import React from "react";
+import { BiAddToQueue } from "react-icons/bi";
 class Input extends React.Component {
   render() {
     const {
@@ -31,7 +32,7 @@ class Input extends React.Component {
           onChange={(e) => endTime(e.currentTarget.value, idx)}
         ></input>
         <button className="add" onClick={() => renderHeading(idx)}>
-          +
+          <BiAddToQueue className="btn" />
         </button>
       </div>
     );

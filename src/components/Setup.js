@@ -132,45 +132,55 @@ class Setup extends React.Component {
     const idxPressed = this.state.idxPressed;
     var mainArr = this.state.mainArr;
     return (
-      <div className="main">
-        <div className="inner">
-          {mainArr.map((e) => (
-            <>
-              <div className="individual">
-                <Input
-                  idx={e}
-                  dateDetails={dateDetails}
-                  starting={this.state.starting}
-                  ending={this.state.ending}
-                  startTime={this.startTime}
-                  endTime={this.endTime}
-                  renderHeading={this.renderHeading}
-                  arr={this.state.arr}
-                  showSlots={this.showSlots}
-                />
-                <button className="saveBtn" onClick={() => this.addInTotal(e)}>
-                  Save
-                </button>
-              </div>
-              {idxPressed == e ? (
-                <SubInput arr={this.state.arrObj[e]} />
-              ) : (
-                <></>
-              )}
-            </>
-          ))}
-          <div className="cover">
-            <button className="submitBtn" onClick={this.displayHrs}>
-              Submit
-            </button>
-          </div>
-          {this.state.x && (
-            <h1 className="totalHrs">
-              Total Working Hours : {this.state.total}
-            </h1>
-          )}
+      <>
+        <div className="flex">
+          <div className="start">Start time</div>
+          <div className="end">End time</div>
         </div>
-      </div>
+
+        <div className="main">
+          <div className="inner">
+            {mainArr.map((e) => (
+              <>
+                <div className="individual">
+                  <Input
+                    idx={e}
+                    dateDetails={dateDetails}
+                    starting={this.state.starting}
+                    ending={this.state.ending}
+                    startTime={this.startTime}
+                    endTime={this.endTime}
+                    renderHeading={this.renderHeading}
+                    arr={this.state.arr}
+                    showSlots={this.showSlots}
+                  />
+                  <button
+                    className="saveBtn"
+                    onClick={() => this.addInTotal(e)}
+                  >
+                    Save
+                  </button>
+                </div>
+                {idxPressed == e ? (
+                  <SubInput arr={this.state.arrObj[e]} />
+                ) : (
+                  <></>
+                )}
+              </>
+            ))}
+            <div className="cover">
+              <button className="submitBtn" onClick={this.displayHrs}>
+                DISPLAY
+              </button>
+            </div>
+            {this.state.x && (
+              <h1 className="totalHrs">
+                Total Working Hours are : {this.state.total}
+              </h1>
+            )}
+          </div>
+        </div>
+      </>
     );
   }
 }

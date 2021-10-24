@@ -8,12 +8,12 @@ const Homepage = () => {
   return (
     <>
       <div className="home">
-        <h1>
-          <span>YourPhysio</span> allows you to add your weekly working hours
-          and display them.{" "}
+        <h1 style={{ textAlign: "center" }}>
+          <span className="logo">YourPhysio</span> allows you to add your weekly
+          working hours and displays them.{" "}
         </h1>
-        <button id="foot">
-          <button class="button-os" onClick={moveto}>
+        <button id="foot" style={{ marginLeft: "46%" }}>
+          <button className="button-os" onClick={moveto}>
             Add your Weekly slots
           </button>
         </button>

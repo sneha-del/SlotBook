@@ -75,11 +75,12 @@ button:hover {
   right: 0;
   bottom: 0;
   margin: auto;
-  background-color: #f9f8fc;
+  background-color: #61dafb;
   border: 2.5px solid #0e172c;
   transition: background-color 2.2s;
   transition-duration: 3s;
   transition: 1.5s;
+
   cursor: pointer;
 }
 
@@ -99,4 +100,129 @@ button:hover {
 
 .button-os a:hover {
   letter-spacing: 5px;
+}
+.submitBtn {
+  position: absolute;
+  width: 200px;
+  height: 65px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  /* background-color: #f9f8fc; */
+
+  transition: background-color 2.2s;
+  transition-duration: 3s;
+  transition: 1.5s;
+  cursor: pointer;
+  margin-top: 35%;
+  background-color: #2a9d8f;
+}
+.submitBtn a:hover {
+  letter-spacing: 5px;
+}
+.submitBtn a {
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  color: #0e172c;
+  transition: 1.5s;
+}
+.submitBtn:hover {
+  position: absolute;
+  top: 30px;
+  background-color: #fec7d7;
+}
+.totalHrs {
+  color: #1b4332;
+  text-align: center;
+  margin-top: 7%;
+}
+.saveBtn {
+  display: flex;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 60px; */
+}
+.inner {
+  width: 100%;
+}
+.individual {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 15px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.center input {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.dayName {
+  background-color: #0466c8;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+.elements input {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.center span {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.elements .add {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.saveBtn {
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  background-color: #8eecf5;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+  height: 30px;
+}
+.flex .start {
+  background-color: #457b9d;
+  color: white;
+  width: 150px;
+  text-align: center;
+  margin-left: 38.5%;
+}
+.flex .end {
+  background-color: #457b9d;
+  color: white;
+  width: 150px;
+  margin-left: 15px;
+  text-align: center;
+}
+.btn {
+  background-color: #abc4ff;
+  /* margin-left: 3px; */
+}
+.logo {
+  color: #2a9d8f;
 }
